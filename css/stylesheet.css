@@ -1,0 +1,47 @@
+li {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+    list-style-type: none;
+}
+
+a:hover, :visited {
+  text-decoration:underline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  font-family: tahoma;
+}
+
+ul {
+  text-align: right;
+    list-style-position: inside;
+}
+
+.button-options {
+  /*background:url("../img/apps.png") no-repeat;*/
+vertical-align: sub;
+  margin: 10px;
+
+}
+
+li a:hover {
+text-decoration: none;
+}
+
+
+.button-notifications {
+  /*background:url("../img/alert-box.png") no-repeat;*/
+vertical-align: sub;
+margin: 10px;
+}
+.button-account {
+  /*background:url("../img/account.png") no-repeat;*/
+vertical-align: sub;
+margin: 10px;
+}
